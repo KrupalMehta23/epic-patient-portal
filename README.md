@@ -13,7 +13,9 @@ Built with: React (JavaScript) on the frontend, Node.js/Express as a backend pro
 Built with help from Claude - open to any feedback or ideas for next steps.
 
 ## Demo Video
-[Watch the demo]([https://youtu.be/ZSSt4ieStt8])
+## Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=ZSSt4ieStt8)
 
 ## Tech Stack
 - **Frontend:** React (JavaScript)
