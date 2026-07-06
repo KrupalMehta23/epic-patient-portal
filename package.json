@@ -1,28 +1,12 @@
 {
-  "name": "epic-patient-portal-ui",
+  "name": "epic-patient-portal",
   "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.22.3",
-    "react-scripts": "5.0.1",
-    "recharts": "^2.15.4"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
-  },
-  "proxy": "http://localhost:3001",
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version"
-    ]
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm start --prefix frontend",
+    "dev": "npm run dev:backend & npm run dev:frontend",
+    "start": "npm start --prefix backend"
   }
 }
